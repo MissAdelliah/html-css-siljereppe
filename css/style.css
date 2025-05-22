@@ -1,11 +1,53 @@
 @font-face {
   font-family: "Inter";
-  src: url("fonts/Inter/Inter-VariableFont_opsz.ttf") format("truetype");
+  src: url("/fonts/Inter/Inter-VariableFont_opsz.ttf") format("truetype");
 }
 
-.eastersale {
+h1,
+h2,
+h3 {
   font-family: "Inter";
   text-transform: uppercase;
   font-size: 2.5rem;
-  font-style: normal;
+  font-weight: 300;
+  color: ;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: #f0ece3;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  font-family: "Inter";
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar a:hover {
+  font-weight: 600;
+}
+
+.navbar li {
+  float: left;
+}
+
+.box,
+h2 {
+  list-style-type: none;
+  background-color: #191a14;
+  padding: 15px;
+  margin: 0px;
+  overflow: hidden;
+  color: #fff;
 }
