@@ -1,15 +1,11 @@
 @font-face {
-  font-family: face;
-  src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  font-family: "Inter";
+  src: url("fonts/Inter/Inter-VariableFont_opsz.ttf") format("truetype");
 }
 
-h1,
-h2,
-h3 {
-  font-family: ;
-}
-
-h1,
-h2 {
+.eastersale {
+  font-family: "inter";
   text-transform: uppercase;
+  font-size: 2.5rem;
+  font-style: normal;
 }
