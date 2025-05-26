@@ -103,6 +103,10 @@ h3 {
   line-height: normal;
   width: 262px;
 }
+.add-to-cart {
+  text-align: center;
+}
+
 .box,
 h2 {
   list-style-type: none;
