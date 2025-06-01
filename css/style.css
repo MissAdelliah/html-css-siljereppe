@@ -3,10 +3,19 @@
   src: url("/fonts/Inter/Inter-VariableFont_opsz.ttf") format("truetype");
 }
 
-/*HOME PAGE*/
-h1,
-h2 {
+* {
   font-family: "Inter", sans-serif, Tahoma, Geneva, Verdana;
+}
+
+/*HOME PAGE*/
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 300;
@@ -14,17 +23,74 @@ h2 {
 }
 
 h3 {
-  font-family: "Inter", sans-serif, Tahoma, Geneva, Verdana;
   font-size: 1rem;
   text-align: left;
-  padding-left: 4.1rem;
+  padding-left: 4.7rem;
   margin-right: 2rem;
   margin-bottom: 0rem;
 }
-/* want to make the li tekt centered*/
-.navbar ul {
+h4 {
+  font-size: 1rem;
+  padding-left: 33rem;
+  margin-right: 2rem;
+  margin-bottom: 0rem;
+}
+/* want to make the li tekst centered*/
+
+/* Site Banner CSS*/
+
+.banner {
+  background-image: url(/images/homeheaderimg.png);
+  background-repeat: repeat-x;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+.banner img {
+  height: auto;
+}
+
+.banner a {
+  position: absolute;
+  right: 5rem;
+  text-decoration: none;
+  color: black;
+}
+
+/*Site Banner CSS-end*/
+
+/*Header*/
+
+.header {
+  z-index: 999;
+}
+
+.navbar {
   list-style-type: none;
   background-color: #f0ece3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.some {
+  cursor: pointer;
+}
+
+.pages {
+  font-family: "Inter", sans-serif, Tahoma, Geneva, Verdana;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbar ul {
   padding: 0px;
   margin: 0px;
   overflow: hidden;
@@ -32,26 +98,49 @@ h3 {
 }
 
 .navbar a {
-  font-family: "Inter", sans-serif, Tahoma, Geneva, Verdana;
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 300;
   color: black;
-  display: block;
-  padding: 20px;
 }
 
 .navbar a:hover {
   font-weight: 600;
 }
 
-.navbar li {
+.pages li {
   display: inline-block;
   padding-left: 3rem;
   padding-right: 3rem;
   text-align: center;
 }
+
+.some li {
+  display: inline-block;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.some {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-wrap: none;
+}
+
+.active_icons li {
+  display: inline-block;
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.active_icons {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  flex-wrap: none;
+}
+
+/*Nav Bar CSS end*/
 
 .complicated {
   background-image: url("/images/moutains.jpg");
@@ -68,8 +157,8 @@ h3 {
   position: absolute;
   max-width: 90%;
   height: 500px;
-  left: 15%;
-  width: 400px;
+  left: 20%;
+  width: 411px;
   z-index: 10;
   background-color: #fff;
 
@@ -97,7 +186,7 @@ h3 {
   font-size: 1rem;
   font-weight: 200;
   text-align: left;
-  padding-left: 4.1rem;
+  padding-left: 4.7rem;
   margin-right: 2rem;
   margin-top: 0.5rem;
   line-height: normal;
@@ -107,8 +196,7 @@ h3 {
   text-align: center;
 }
 
-.box,
-h2 {
+.box {
   list-style-type: none;
   background-color: #191a14;
   padding: 60px;
@@ -140,6 +228,7 @@ h1 {
 }
 
 .confirm-button {
+  text-decoration: none;
 }
 
 /* About Section CSS*/
@@ -184,6 +273,33 @@ h1 {
   font-weight: 700;
 }
 
+.adventures p {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 0rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  line-height: normal;
+  padding-bottom: 1.5rem;
+}
+
+.adventures img {
+  width: 440px;
+  height: 170px;
+}
+
+/*Footer CSS */
+
+.footer img {
+  width: 130px;
+  height: 50px;
+}
+
+footer {
+  background-color: #f0ece3;
+}
 /* Aboout Responsive setup*/
 
 @media screen and (max-width: 1080px) {
