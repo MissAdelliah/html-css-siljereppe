@@ -41,8 +41,13 @@ h4 {
 
 .banner {
   background-image: url(/images/homeheaderimg.png);
-  background-repeat: repeat-x;
-  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: center;
+  min-height: 200px;
+  max-width: 100%;
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: none;
@@ -52,7 +57,7 @@ h4 {
 }
 
 .banner img {
-  height: auto;
+  height: 200px;
 }
 
 .banner a {
@@ -60,6 +65,12 @@ h4 {
   right: 5rem;
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 820px) {
+  .banner {
+    background-size: auto;
+  }
 }
 
 /*Site Banner CSS-end*/
@@ -292,30 +303,129 @@ h1 {
 
 /*Footer CSS */
 
-.footer img {
-  width: 130px;
-  height: 50px;
-}
-
-footer {
+.footer__container {
   background-color: #f0ece3;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-/* Aboout Responsive setup*/
 
-@media screen and (max-width: 1080px) {
-  .about {
-    padding: 4rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+.footer__container img {
+  position: flex;
+  height: 100px;
+}
+
+.footer__links {
+  width: auto;
+  /*background-image: url(/images/RainyDays_main_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer__links--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/*.footer__links--wrapper:nth-child(2) {
+  margin-right: 33%;
+}*/
+
+.footer__links--items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 1rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.footer__links--items h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.footer__links--items span {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.footer__links--items a {
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.footer__links--items a i {
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
+
+.footer__links--items a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease-out;
+}
+
+.payment__container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.payment__wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  max-width: 1000px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.website__rights {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: left;
+}
+
+/* Footer Responsive*/
+
+@media screen and (max-width: 820px) {
+  .footer__container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
-}
 
-@media screen and (max-width: 460px) {
-  .about {
-    padding: 4rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+  .footer__links {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+
+  .website__rights {
+    margin-bottom: 2rem;
+  }
+
+  .footer__links--items {
+    flex-direction: column;
+    align-items: center;
   }
 }
