@@ -286,11 +286,12 @@ h1 {
 
 .adventures p {
   font-family: "Inter";
+
   font-size: 1.5rem;
   font-weight: 400;
-  text-align: left;
-  padding-left: 0rem;
-  margin-right: 2rem;
+  text-align: center;
+  padding-left: 4rem;
+  margin-right: 4rem;
   margin-top: 0.5rem;
   line-height: normal;
   padding-bottom: 1.5rem;
@@ -305,15 +306,15 @@ h1 {
 
 .footer__container {
   background-color: #f0ece3;
-  padding-top: 8rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.footer__container img {
+.footer__links img {
   position: flex;
   height: 100px;
 }
@@ -400,9 +401,8 @@ h1 {
 }
 
 .website__rights {
-  padding-top: 4rem;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 /* Footer Responsive*/
