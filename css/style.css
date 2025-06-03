@@ -290,8 +290,8 @@ h1 {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-  padding-left: 4rem;
-  margin-right: 4rem;
+  padding-left: 30rem;
+  margin-right: 30rem;
   margin-top: 0.5rem;
   line-height: normal;
   padding-bottom: 1.5rem;
@@ -428,4 +428,22 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.error {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 220px;
+  padding-bottom: 220px;
+}
+
+.product_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  row-gap: 20px;
+}
+
+.product_container div {
 }
