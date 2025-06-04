@@ -8,32 +8,114 @@
     <script src="https://kit.fontawesome.com/225474c78d.js" crossorigin="anonymous"></script>
   </head>
    <body class="centered">
-    <header>
-      <nav class="navbar">
-        <ul class="some">
-          <li><a href="/"><i class="fa-brands fa-instagram"></a></i></li>
-           <li><a href="/"><i class="fa-brands fa-facebook"></a></i></li>
-            <li><a href="/"><i class="fa-brands fa-youtube"></a></i></li>
-        </ul>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="women.html">Women</a></li>
-        </ul>
-         <ul class="active_icons">
-          <li><a href="/"><i class="fa-regular fa-heart"></a></i></li>
-           <li><a href="/"><i class="fa-solid fa-cart-shopping"></a></i></li>
-        </ul>
+    <header class="header">
+      <nav class="navbar__container">
+        <div class="navbar--some">
+          <a href="/"><i class="fa-brands fa-instagram"></a></i>
+          <a href="/"><i class="fa-brands fa-facebook"></a></i>
+          <a href="/"><i class="fa-brands fa-youtube"></a></i>
+        </div>
+        <div class="navbar--pages">
+          <a href="index.html">Home</a>
+          <a href="men.html" style="text-decoration: underline;">Men</a>
+          <a href="women.html">Women</a>
+        </div>
+        <div class="navbar--active_icons">
+          <a href="/"><i class="fa-regular fa-heart"></a></i>
+          <a href="/"><i class="fa-solid fa-cart-shopping"></a></i>
+        </div>
       </nav>
-    
-      <div class="product_container"></div>
-      <div> <img src="/images/mainjacket.jpg"> <p> hello</p></div>
-      <div><img src="/images/jacketblue.png"><p> hello</p></div>
-      <div><img src="/images/jacketmulti.png"><p> hello</p></div>
-      <div><img src="/images/jacketred.jpg"><p> hello</p></div>
-      <div><img src="/images/jacketbrown.jpg"><p> hello</p></div>
-      <div><img src="/images/jacketblack.png"><p> hello</p></div>
     </header>
+    <!--Product Grid-->
+      <section class="product-list">
+        <div class="products__wrap">
+          <!--Product 1-->
+          <div class="products__items">
+            <img class="product--img" src="/images/mainjacket.jpg" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Deep Moss – 30,000mm Water-Resistant Jacket</h2>
+              <p class="product__items--description">Built with a 3-layer Gore-Tex® shell for ultimate breathability and waterproof protection. Stay dry, stay moving — no matter the storm.</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+          <!--Product 2-->
+          <div class="products__items">
+            <img class="product--img" src="/images/jacketblue.png" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Ocean Blue – Windproof Jacket </h2>
+              <p class="product__items--description">Crafted with tightly woven fabric and sealed seams, this lightweight jacket offers reliable wind protection without compromising breathability. Perfect for breezy conditions.</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+          <!--Product 3-->
+          <div class="products__items">
+            <img  class="product--img" src="/images/jacketmulti.png" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Deep Moss</h2>
+              <p class="product__items--description">prouct description</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+          <!--Product 4-->
+          <div class="products__items">
+            <img class="product--img" src="/images/jacketbrown.jpg" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Deep Moss</h2>
+              <p class="product__items--description">prouct description</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+          <!--Product 5-->
+          <div class="products__items">
+            <img class="product--img" src="/images/jacketred.jpg" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Deep Moss</h2>
+              <p class="product__items--description">prouct description</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+          <!--Product 6-->
+          <div class="products__items">
+            <img class="product--img" src="/images/jacketblack.png" id="product picture">
+            <div class="products__items--text">
+              <h2 class="product__items--header">Deep Moss</h2>
+              <p class="product__items--description">prouct description</p>
+              <h3 class="product_items--price">£ 250</h3>
+              <div class="product__items--buttons">
+                <button class="size">Choose size ></button>
+                <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+                <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
     </body>
     <footer class="footer__container">
     <div class="footer__links">

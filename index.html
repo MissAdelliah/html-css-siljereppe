@@ -9,89 +9,96 @@
   </head>
   <body class="centered">
     <section class="banner">
-      <img src="/images/RainyDays_main_logo.png"
+      <img src="/images/RainyDays_main_logo.png">
       <div class="banner__login">
         <a href="/">LOG IN/<br>SIGN UP</a>
       </div>
-      </section>
+    </section>
     <header class="header">
-      <nav class="navbar">
-        <ul class="some">
-          <li><a href="/"><i class="fa-brands fa-instagram"></a></i></li>
-           <li><a href="/"><i class="fa-brands fa-facebook"></a></i></li>
-            <li><a href="/"><i class="fa-brands fa-youtube"></a></i></li>
-        </ul>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="men.html">Men</a></li>
-          <li><a href="women.html">Women</a></li>
-        </ul>
-         <ul class="active_icons">
-          <li><a href="/"><i class="fa-regular fa-heart"></a></i></li>
-           <li><a href="/"><i class="fa-solid fa-cart-shopping"></a></i></li>
-        </ul>
-
+      <nav class="navbar__container">
+        <div class="navbar--some">
+          <a href="/"><i class="fa-brands fa-instagram"></a></i>
+          <a href="/"><i class="fa-brands fa-facebook"></a></i>
+          <a href="/"><i class="fa-brands fa-youtube"></a></i>
+        </div>
+        <div class="navbar--pages">
+          <a href="index.html" style="text-decoration: underline;">Home</a>
+          <a href="men.html">Men</a>
+          <a href="women.html">Women</a>
+        </div>
+        <div class="navbar--active_icons">
+          <a href="/"><i class="fa-regular fa-heart"></a></i>
+          <a href="/"><i class="fa-solid fa-cart-shopping"></a></i>
+        </div>
       </nav>
     </header>
-    <main>
-      
-    <div>
-      <h2 class="box">Easter sale get up to -40% off</h2>
-    </div>
-    <section class="complicated">
-      <div class="whitebox">
+  <main>  
+  <!--Campaign-->
+    <section class="campaign__container">
+      <h2 class="campaign--item">Easter sale get up to -40% off</h2>
+    </section>
+  <!--Promo-->
+    <section class="promo">
+      <div class="promo__container">
         <img src="/images/mainjacket.jpg" alt="mainjacket"/>
         <div class="home-product-info"> 
-          <h3>Deep Moss – 30,000mm Water-Resistant Jacket</h3>
-          <p>Built with a 3-layer Gore-Tex® shell for ultimate breathability and waterproof protection. Stay dry, stay moving — no matter the storm.</p>
-      
-          <button class="add-to-cart">Add to cart</button>
+          <h3 class="promo--header">Deep Moss – 30,000mm Water-Resistant Jacket</h3>
+          <p class="promo--description">Built with a 3-layer Gore-Tex® shell for ultimate breathability and waterproof protection. Stay dry, stay moving — no matter the storm.</p>
+          <p class="price">£ 251,09</p>
+          <div class="promo__items--buttons">
+            <button class="size">Choose size ></button>
+            <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+            <button class="cart"><i class="fa-solid fa-shopping-cart"></i></button>                
+          </div>
+        </div>
+      </div>
+      <div class="promo--text">
+        <h1>High</h1>
+        <h1>Durability</h1>
+        <h3>Don't let the <br>weather stop you.</h3>
+      </div>
+    </section>
+    <!--Newsletter Sign-up-->
+    <section class="newsletter__container">
+      <div class="newsletter--header">
+        <h2>Sign up for newsletter and get exclusive access</h2>
+      </div>
+      <div class="newsletter--form"> 
+        <input class="newsletter--input" type="Email" id="Email" name="Email" placeholder="Enter Email"/>
+        <button class="confirm-button">Confirm</button>
+      </div>
+    </section>
+<!--About Us-->
+    <section class="about"> 
+      <div class="about__container">
+        <img src="/images/rainyjacket.jpg">
+        <h3>Ready for Anything.<br> Designed to Last.</h3>
+        <p> At RAINYDAYS, we make jackets that do more than just keep you dry. They're built to handle tough weather, long hikes, and everyday adventures — all while being kind to the planet.</p>
+        <a href="/">Read more</a>
+      </div>
+      <div class="about__container">
+        <img src="/images/waterfall.jpg">
+        <h3>Made to Matter.</h3>
+        <p>We believe great gear shouldn't come at the cost of the planet. That's why all our jackets are made with 100% recycled polyester and insulated with materials like recycled down or responsibly sourced wool blends. From the fabric to the final stitch, we focus on reducing our footprint — so you can enjoy nature while protecting it too.</p>
+        <a href="/">Read more</a>
+      </div>
+    </section>
+  <!--Sponsor Section-->
+    <section class="adventures">
+      <div class="adventures--wrapper">
+        <div class="adventures--item">
+          <h2>We support all adventures</h2>
+          <P>We have choosen to support this cause, where donating 5% of every sale. <br><br>Your donation will go to freespirit.com <br><br> Freespirit is an organization who finacally support families with different diabilities, who will not get to expirence nature at its best on their own. <br><br> They provide their need of an assistant, guide, and transportation. </P>
+          <p>THANK YOU FOR SUPPORTIG US</p>
+          <p>Best regards</p>
+          <p>RAINYDAYS & FREESPIRIT</P>
+        </div>
+        <div class="adventures--item">
+          <img src="/images/waterfall.jpg">
         </div>
       </div>
     </section>
-    <div>
-      <h2 class="box">Sign up for newsletter and get exclusive access</h2>
-    </div>
-      <div class="newsletter"> 
-      
-        <input type="Email" id="Email" name="Email" placeholder="Enter Email"/>
-      <button class="confirm-button">Confirm</button>
-      </div>
-      <section class="about"> 
-          <div class="about__container">
-            <img src="/images/rainyjacket.jpg">
-            <h3>Ready for Anything.<br> Designed to Last.</h3>
-            <p> At RAINYDAYS, we make jackets that do more than just keep you dry. They're built to handle tough weather, long hikes, and everyday adventures — all while being kind to the planet.</p>
-            <a href="/">Read more</a>
-          </div>
-          <div class="about__container">
-            <img src="/images/waterfall.jpg">
-            <h3>Made to Matter.</h3>
-            <p>We believe great gear shouldn't come at the cost of the planet. That's why all our jackets are made with 100% recycled polyester and insulated with materials like recycled down or responsibly sourced wool blends. From the fabric to the final stitch, we focus on reducing our footprint — so you can enjoy nature while protecting it too.</p>
-            <a href="/">Read more</a>
-          </div>
-      </section>
-  </div>
-  <section>
-    <div class="adventures">
-      <h2>We support all adventures</h2>
-      <P>We have choosen to support this cause, where donating 5% of every sale.
-
-your donation will go to freespirit.com
-
-Freespirit is an organization who finacally support families with different diabilities, who will not get to expirence nature at its best on their own. 
-
-They provide their need of an assistant, guide, and transportation. </P>
-
-<p> THANK YOU FOR SUPPORTIG US </p>
-
-<p>Best regards</p>
-<p>RAINYDAYS & FREESPIRIT</P>
-    </div>
-    
-      </section>
-    </main>
-  </body>
+  </main>
   <footer class="footer__container">
     <div class="footer__links">
       <div class="footer__links--wrapper">
@@ -128,4 +135,5 @@ They provide their need of an assistant, guide, and transportation. </P>
       <p class="website__rights--text">&copy; 2025 Rainydays</p>
     </div>
   </footer>
+</body>
 </html>
