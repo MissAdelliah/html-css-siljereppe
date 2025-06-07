@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/225474c78d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <section class="banner">
+      <img src="/images/RainyDays_main_logo.png">
+      <div class="banner__login">
+        <a href="/">LOG IN/<br>SIGN UP</a>
+      </div>
+    </section>
+   <header class="header">
+      <nav class="navbar__container">
+        <div class="navbar--some">
+          <a href="/"><i class="fa-brands fa-instagram"></a></i>
+          <a href="/"><i class="fa-brands fa-facebook"></a></i>
+          <a href="/"><i class="fa-brands fa-youtube"></a></i>
+        </div>
+        <div class="navbar--pages">
+          <a href="index.html">Home</a>
+          <a href="men.html" style="text-decoration: underline;">Men</a>
+          <a href="women.html">Women</a>
+        </div>
+        <div class="navbar--active_icons">
+          <a href="/"><i class="fa-regular fa-heart"></a></i>
+          <a href="/"><i class="fa-solid fa-cart-shopping"></a></i>
+        </div>
+      </nav>
+    </header>
+  <body id="product-detail-page">
+    <!--Specific Product Page-->
+    <section class="product__container">
+      <div class="product__wrapper"> 
+        <div class="product--images">
+          <div class="product--images--small">
+            <!--first img-->
+            <div class="product__item">
+              <img class="jacket--one--img" src="/images/productjacketgreen2.jpg" id="green moss jacket">
+            </div>
+          <!--second img-->
+            <div class="product__item">
+              <img class="jacket--two--img" src="/images/productjacketgreen3.jpg" id="green moss jacket">
+            </div>
+            <!--third img-->
+            <div class="product__item">
+              <img class="jacket--two--img" src="/images/productjacketgreen4.jpg" id="green moss jacket">
+            </div>
+          </div>
+          <!--Main img-->
+          <div class="product--images--big">
+            <div class="product__item">
+              <img class="jacket--three--img" src="/images/mainjacket.jpg" id="green moss jacket">
+            </div>
+          </div>
+        </div>
+        <!--Product Text-->
+        <div class="sproduct__text" id="sproduct">
+          <h2>NEW!</h2>
+          <h3>Deep Moss - 30,000mm Water-Resistant Jacket</h3>
+          <p class="description">Built with a 3-layer Gore-Tex® shell for ultimate breathability and waterproof protection. Stay dry, stay moving — no matter the storm.</p>
+          <p class="price">£ 251,09</P>
+          <p class="sizes-in-stock">sizes in stock</p>
+          <div class="sproduct__text--sizes">
+            <p>XS</p>
+            <p>S</p>
+            <p>M</p>
+            <p>L</p>
+            <p>XL</p>
+            <p>XXL</p>
+          </div>
+          <div class="product__items--buttons">
+            <button class="heart"><i class="fa-solid fa-heart"></i></button>                
+            <a href="cart.html"><button class="cart"><i class="fa-solid fa-shopping-cart"></i></button></a> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Suggested-products-->
+    <section class="suggested">
+      <div class="suggested__header">
+        <h2>You might also like</h2>
+      </div>
+      <div class="suggested--wrapper">
+        <div class="suggested--item">
+          <img src="/images/jacketred.jpg" alt="red jacket">
+          <h2>All-Day Dune - Thermal Inducted Jacket</h2>
+        </div>
+        <div class="suggested--item">
+          <img src="/images/jacketblue.png" alt="red jacket">
+          <h2>Ocean Blue – Windproof Jacket</h2>
+        </div>
+        <div class="suggested--item">
+          <img src="/images/jacketblack.png" alt="red jacket">
+          <h2>Urban Storm – Waterproof Shell Jacket</h2>
+        </div>
+        <div class="suggested--item">
+          <img src="/images/jacketmulti.png" alt="red jacket">
+          <h2>Black & Blaze – Water-Resistant Jacket</h2>
+        </div>
+      </div>
+    </section>
+    <!--newletter signup-->
+    <section class="newsletter__container">
+      <div class="newsletter--header">
+        <h2>GET -10% OFF ON YOUR FIRST ORDER WHEN SIGNING UP ON OUR NEWSLETTER</h2>
+      </div>
+      <div class="newsletter--form"> 
+        <input class="newsletter--input" type="Email" id="Email" name="Email" placeholder="Enter Email"/>
+        <button class="confirm-button">CONFIRM</button>
+      </div>
+    </section>
+  </body>
+  <footer class="footer__container">
+    <div class="footer__links">
+      <div class="footer__links--wrapper">
+        <div class="footer__links--items">
+          <h2>Costumer service</h2>
+          <span><a href="/">Terms</a><a href="/">Payment</a></span>
+          <span><a href="/">About</a><a href="/">Support</a></span>
+          <span><a href="/">Return</a><a href="/">Contact</a></span>
+        </div>
+      </div>
+      <div class="footer__links--wrapper">
+        <div class="footer__links--items">
+          <img src="/images/RainyDays_secondary_logo.png" />
+        </div>
+      </div>
+      <div class="footer__links--wrapper">
+        <div class="footer__links--items">
+          <h2>Follow Us</h2>
+          <a href="/"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="/"><i class="fab fa-facebook"></i>Facebook</a>
+          <a href="/"><i class="fab fa-youtube"></i>Youtube</a>
+        </div>
+      </div>
+    </div>
+    <div class="payment__container">
+      <div class="payment__wrap">
+        <a href="/"><img src="/images/klarna.png" alt="Klarna" /></a>
+        <a href="/"><img src="/images/paypal.png" alt="PayPal" /></a>
+        <a href="/"><img src="/images/visa.png" alt="Visa" /></a>
+        <a href="/"><img src="/images/master.png" alt="Mastercard" /></a>
+      </div>
+    </div>
+    <div class="website__rights">
+      <p class="website__rights--text">&copy; 2025 Rainydays</p>
+    </div>
+  </footer>
+</html>
