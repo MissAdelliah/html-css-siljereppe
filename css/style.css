@@ -1205,7 +1205,7 @@ h4 {
   font-weight: 300;
 }
 
-/*confirm order page */
+/*checkout page */
 .order__container--checkbox {
   display: flex;
   flex-direction: row;
@@ -1223,6 +1223,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 6rem;
 }
 
 .shipping--header {
@@ -1267,6 +1268,85 @@ input[type="checkbox"] {
   padding: 0 auto;
 }
 
+/* payment method section */
+
+.order-payment__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2rem;
+  border-top: solid;
+  border-width: 1px;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.payment--header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.payment--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.payment--method {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+
+.payment-method--items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.payment--details {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment--details--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.payment--details--wrapper input {
+  height: 65px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #191a1473;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.confirm-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0 20%;
+}
+
 .confirm-order button {
   background-color: black;
   color: white;
@@ -1278,13 +1358,4 @@ input[type="checkbox"] {
 
 .confirm-order P {
   font-size: 1rem;
-}
-
-.payment--method p {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding-top: 90px;
-  padding-bottom: 48px;
-  font-weight: 700;
 }

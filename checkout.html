@@ -69,48 +69,54 @@
           </div>
         </div>
       </div>
-      <div class="payment__container">
-        <div class="payment--method">
+      <div class="order-payment__container">
+        <div class="payment--header">
           <p>Payment details</p>
-          <div class="visa" id="visa">
-            <input type="checkbox" id="visa" name="visa" value="notify"></input>
-            <img src="/images/visa.png">
-          </div>
-          <div class="klarna" id="Klarna">
-            <input type="checkbox" id="klarna" name="klarna" value="Klarna"></input>
-            <img src="/images/klarna.png">
-          </div>
-          <div class="paypal" id="Paypal">
-            <input type="checkbox" id="paypal" name="paypal" value="paypal"></input>
-            <img src="/images/paypal.png">
-          </div>
-          <div class="master" id="MasterCard">
-            <input type="checkbox" id="master" name="master" value="master"></input>
-            <img src="/images/master.png">
-          </div>
         </div>
-        <div class="payment--details">
-          <div class="cardholder-name">
-            <label for="mail">Cardholder name</label>
-            <input class="long"  type="cardholder" id="cardholder" name="cardholder">
-          </div>
-          <div class="card-number">
-            <label for="card">Card number</label>
-            <input class="long" type="card" id="card" name="card">
-          </div>
-          <div class="card-details">
-            <div class="exp-date">
-              <label for="date">Expitation date</label><br>
-              <input class="mini" type="date" id="date" name="date">
+        <div class="payment--wrapper">
+          <div class="payment--method">
+            <div class="payment-method--items" id="visa">
+              <input type="checkbox" id="visa" name="visa" value="notify"></input>
+              <img src="/images/visa.png">
             </div>
-            <div class="CVC">
-              <label for="county">CVC</label><br>
-              <input class="mini" type="text" id="county" name="county">
+            <div class="payment-method--items" id="Klarna">
+              <input type="checkbox" id="klarna" name="klarna" value="Klarna"></input>
+              <img src="/images/klarna.png">
+            </div>
+            <div class="payment-method--items" id="Paypal">
+              <input type="checkbox" id="paypal" name="paypal" value="paypal"></input>
+              <img src="/images/paypal.png">
+            </div>
+            <div class="payment-method--items" id="MasterCard">
+              <input type="checkbox" id="master" name="master" value="master"></input>
+              <img src="/images/master.png">
             </div>
           </div>
-          <div class="confirm-order">
-            <button>CONRFIRM MY ORDER</button>
-            <p>Pay now or pay ...£/6 months, 17% with <b>Klarna</b> <u>Read more</u></p>
+          <div class="payment--details">
+            <div class="payment--details--wrapper">
+              <div class="cardholder-name">
+                <label for="mail">Cardholder name</label>
+                <input class="long"  type="cardholder" id="cardholder" name="cardholder">
+              </div>
+              <div class="card-number">
+                <label for="card">Card number</label>
+                <input class="long" type="card" id="card" name="card">
+              </div>
+              <div class="card-details">
+                <div class="exp-date">
+                  <label for="date">Expitation date</label><br>
+                  <input class="mini" type="date" id="date" name="date">
+                </div>
+                <div class="CVC">
+                  <label for="county">CVC</label><br>
+                  <input class="mini" type="text" id="county" name="county">
+                </div>
+              </div>
+            </div>
+            <div class="confirm-order">
+              <button>CONRFIRM MY ORDER</button>
+              <p>Pay now or pay ...£/6 months, 17% with <b>Klarna</b> <u>Read more</u></p>
+            </div>
           </div>
         </div>
       </div>
