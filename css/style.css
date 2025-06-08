@@ -37,7 +37,7 @@ h4 {
 /* Site Banner CSS*/
 
 .banner {
-  background-image: url(./images/homeheaderimg.png);
+  background-image: url(images/homeheaderimg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -207,7 +207,7 @@ h4 {
 /* Promo */
 
 .promo {
-  background-image: url("./images/moutains.jpg");
+  background-image: url("images/moutains.jpg");
   height: 593px;
   max-width: 100%;
   background-size: cover;
@@ -1031,7 +1031,7 @@ h4 {
 #product-detail-page .newsletter__container {
   padding-left: 20%;
   padding-right: 20%;
-  background-image: url(./images/homemen.jpg);
+  background-image: url(images/homemen.jpg);
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
