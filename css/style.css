@@ -1333,6 +1333,16 @@ input[type="checkbox"] {
   padding: 0 auto;
 }
 
+@media screen and (max-width: 480px) {
+  .shipping-method {
+    flex-direction: column;
+  }
+
+  .shipping-method img {
+    display: none;
+  }
+}
+
 /* payment method section */
 
 .order-payment__container {
@@ -1423,6 +1433,12 @@ input[type="checkbox"] {
 
 .confirm-order P {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .payment--method {
+    flex-wrap: wrap;
+  }
 }
 
 /*cart page*/
@@ -1638,4 +1654,10 @@ input[type="checkbox"] {
 }
 .index {
   position: absolute;
+}
+
+@media screen and (max-width: 680px) {
+  .cart-stage {
+    display: none;
+  }
 }
