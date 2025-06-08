@@ -141,6 +141,26 @@ h4 {
   font-weight: 600;
 }
 
+@media screen and (max-width: 460px) {
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar--pages {
+    gap: 5%;
+    padding: 0.5rem;
+  }
+
+  .navbar--some {
+    padding: 0;
+  }
+
+  .navbar--active_icons {
+    padding: 0;
+  }
+}
+
 /*
 .some {
   cursor: pointer;
@@ -311,9 +331,41 @@ h4 {
   font-size: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+  .promo--text {
+    right: 8%;
+    top: 21%;
+  }
+  .promo--text h3 {
+    left: 0;
+  }
+}
 @media screen and (max-width: 960px) {
   .promo--text {
+    right: 2%;
+    top: 21%;
+  }
+  .promo--text h3 {
+    left: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .promo--text {
     display: none;
+  }
+
+  .promo__container {
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .promo--text {
+    display: none;
+  }
+
+  .promo__container {
+    left: 0;
   }
 }
 
@@ -468,6 +520,14 @@ h4 {
   font-size: 1.5rem;
   font-weight: 600;
   color: black;
+}
+
+@media screen and (max-width: 960px) {
+  .about--wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+    padding: 0rem 1rem;
+  }
 }
 
 /*Adventures section*/
@@ -1052,7 +1112,9 @@ h4 {
 /*signup page css*/
 
 .signup__form {
-  padding: 10% 20%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1091,7 +1153,10 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  border-top: solid;
+  border-width: 1px;
 }
 
 .signup--name {
@@ -1542,4 +1607,35 @@ input[type="checkbox"] {
 
 .sign-in {
   width: 200px;
+}
+
+/*header for sign-up page */
+
+.sign-up-header {
+  padding: 3rem 4rem 1rem 4rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.sign-up-header--nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.sign-up-header--nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign-up-header--nav p {
+  width: 100%;
+}
+.index {
+  position: absolute;
 }
