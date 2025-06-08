@@ -6,42 +6,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
+  <header class="cart-header">
+    <nav class="cart-header--nav">
+      <div class="shop-more"> 
+        <a href="./men.html">< SHOP MORE</a>
+      </div>
+      <div class="cart-stage">
+        <img src="./images/Cart-page.png.png" alt="Shopping-cart">
+      </div>
+      <div class="sign-in">
+        <a href="./signup.html">TO SAVE CART SIGN IN</a>
+      </div>
+    </nav>
+  </header>
   <body>
-    <div class="cart__container">
+    <section class="cart__container">
+      <h3>BASKET: 1 item</h2>
       <div class="cart--wrap">
-        <img src="./images/mainjacket.jpg" />
-        <div class="cart__info">
-          <h3>Deep Moss – 30,000mm Water-Resistant Jacket</h3>
-          <br />
-          <p>Quantity: <b>1</b></p>
-          <p>Size: <b>M</b></p>
-          <p>Item: <b>£200,87</b></p>
-          <br />
-          <p>Discount:</p>
-          <p>25% MVA: <b>£50,22</b></p>
-          <p>TOTAL: <b>£251,09</b></p>
-          <br />
+        <div class="cart__img">
+          <img src="./images/mainjacket.jpg" />
         </div>
-        <div class="add-discount"></div>
-        <input
-          class="mini"
-          type="code"
-          id="code"
-          name="code"
-          placeholder="Discount code"
-        />
-        <button class="use-button">USE</button>
-        <div class="cart--info--shipping">
-          <img src="./images/ups.png" />
-          <img src="./images/fedex.png" />
-          <img src="./images/deliver.png" />
-          <p>TO PAY:<b>£251,09</b></p>
-          <div class="confirm-order">
-            <a href="./checkout.html"> <button>CONTINUE TO CHECKOUT</button></a>
+        <div class="cart__info">
+          <div class="cart__info-details">
+            <div>
+              <h3>Deep Moss – 30,000mm Water-Resistant Jacket</h3>
+              <p>Quantity: <b>1</b></p>
+              <p>Size: <b>M</b></p>
+              <div class="item__price--details">
+                <span><p>Item:</p><p>£200,87</p></span>
+                <span><p>Discount:</p><p>0,00</p></span>
+                <span><p>25% MVA: </p><p>£50,22</p></span>
+                <span><p>TOTAL:</p><p>£251,09</p></span>
+              </div>
+              <div class="add-discount">
+            <input
+              class="mini" type="code" id="code" name="code" placeholder="Discount code">
+            <button class="use-button">USE</button>
+          </div>
+            </div>
+            <div>
+              <button>Remove</button>
+            </div>
+          </div>
+          <div class="cart--info--shipping">
+            <div class="shipping-logos">
+              <img src="./images/ups.png" />
+              <img src="./images/fedex.png" />
+              <img src="./images/deliver.png" />
+            </div>
+            <div class="free-shipping">
+              <div class="progress__bar">
+                <div class="progress__bar-inside">100%</div>
+              </div>
+              <p>Congrats! You'll get free shipping.</p>
+            </div>
+          </div>
+          <div class="price--total">
+          <span><p>TO PAY:</p><p><b>£251,09</b></p></span>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="checkout__container">
+      <div class="confirm-order">
+        <a href="./checkout.html"> <button>CONTINUE TO CHECKOUT</button></a>
+      </div>
+    </section>
   </body>
   <footer class="footer__container">
     <div class="footer__links">
